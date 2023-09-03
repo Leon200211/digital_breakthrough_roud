@@ -59,15 +59,7 @@ class RouteController extends BaseController
                 $this->inputMethod = $this->routes[$address_str]['action'];
                 $this->outputMethod = 'outputData';
             }else{
-                if($address_str === '/laserworkshop/chart/index.php'){
-                    $this->controller = '\engine\modules\laserWorkshop\controllers\chart\\';
-                    $this->controller .= ucfirst('addShiftController');
-                    $this->inputMethod = 'index';
-                    $this->outputMethod = 'outputData';
-                    $this->redirect('/laserworkshop/chart/add');
-                }else{
-                    throw new RouteException("Не найден контроллер", 1);
-                }
+                throw new RouteException("Не найден контроллер", 1);
             }
 
 
