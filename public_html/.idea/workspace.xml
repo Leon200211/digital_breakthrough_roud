@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8be5c17d-5ce5-4b83-8599-542b47a0c29d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="timesheet.workshop" id="c01f9154-a721-4ad6-a083-a257e9fba05b" name="timesheet.workshop" />
+      <server host="test.calendar" id="75dc3599-623e-4e1e-90d3-d7015c8c6f96" name="test.calendar" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/templates/default" remote-root="C:/OpenServer/domains/test_calendar/public_html/template" />
+        </path_mappings>
+      </server>
+      <server host="cis.vesna" id="bf7015b7-84b4-4277-80a1-8497880d3db5" name="cis.vesna" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="2KbPxfG6ACVZmjSI8LArgSKb8dQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/my_work/Sites/timesheet_workshop/public_html&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\timesheet_workshop\public_html\files\notice\icon" />
+      <recent name="C:\OpenServer\domains\timesheet_workshop\public_html\engine\modules\erpMetal\views\assets" />
+      <recent name="C:\OpenServer\domains\timesheet_workshop\public_html\engine\modules\laserWorkshop\views\assets\language" />
+      <recent name="C:\OpenServer\domains\timesheet_workshop\public_html\templates\default\assets" />
+      <recent name="C:\OpenServer\domains\timesheet_workshop\public_html\engine\modules\laserWorkshop\controllers\reports" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\timesheet_workshop\public_html\engine\modules\office\manager\views\assets\css" />
+      <recent name="C:\OpenServer\domains\timesheet_workshop\public_html\templates\default" />
+      <recent name="C:\OpenServer\domains\timesheet_workshop\public_html\files\user_files\user_profile_img" />
+      <recent name="C:\OpenServer\domains\timesheet_workshop\public_html\engine\main" />
+      <recent name="C:\OpenServer\domains\timesheet_workshop\public_html\engine\modules" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="shift.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/engine/modules/laserWorkshop/views/shift.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8be5c17d-5ce5-4b83-8599-542b47a0c29d" name="Default Changelist" comment="" />
+      <created>1674240557429</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674240557429</updated>
+      <workItem from="1674240558682" duration="2765000" />
+      <workItem from="1674285235678" duration="4188000" />
+      <workItem from="1674291761447" duration="14521000" />
+      <workItem from="1674399560740" duration="157000" />
+      <workItem from="1674401461543" duration="955000" />
+      <workItem from="1674402428706" duration="11168000" />
+      <workItem from="1674485750729" duration="14000" />
+      <workItem from="1674747680252" duration="7362000" />
+      <workItem from="1674821888095" duration="20000" />
+      <workItem from="1674832943655" duration="600000" />
+      <workItem from="1674837447771" duration="9843000" />
+      <workItem from="1674899736196" duration="15416000" />
+      <workItem from="1675252380057" duration="644000" />
+      <workItem from="1676111546086" duration="28000" />
+      <workItem from="1676111665967" duration="498000" />
+      <workItem from="1676112177208" duration="517000" />
+      <workItem from="1676119606527" duration="211000" />
+      <workItem from="1676119844039" duration="947000" />
+      <workItem from="1676120824397" duration="234000" />
+      <workItem from="1676633179996" duration="6129000" />
+      <workItem from="1676816898824" duration="1192000" />
+      <workItem from="1677001824301" duration="7000" />
+      <workItem from="1677160437920" duration="39000" />
+      <workItem from="1677237645092" duration="13022000" />
+      <workItem from="1677328629465" duration="20940000" />
+      <workItem from="1677408806501" duration="16775000" />
+      <workItem from="1677495268516" duration="184000" />
+      <workItem from="1677497998800" duration="3145000" />
+      <workItem from="1677522151479" duration="3103000" />
+      <workItem from="1677598381491" duration="617000" />
+      <workItem from="1677657328950" duration="4074000" />
+      <workItem from="1677661458442" duration="30000" />
+      <workItem from="1677661506924" duration="21000" />
+      <workItem from="1677665337721" duration="10326000" />
+      <workItem from="1677680575779" duration="14000" />
+      <workItem from="1677760153151" duration="21821000" />
+      <workItem from="1677866576999" duration="595000" />
+      <workItem from="1677913072623" duration="9479000" />
+      <workItem from="1677932754499" duration="1788000" />
+      <workItem from="1677947934477" duration="12399000" />
+      <workItem from="1677999791073" duration="37486000" />
+      <workItem from="1678083768442" duration="877000" />
+      <workItem from="1678125376057" duration="623000" />
+      <workItem from="1678128007234" duration="285000" />
+      <workItem from="1678190040746" duration="1633000" />
+      <workItem from="1678348117760" duration="773000" />
+      <workItem from="1678537811130" duration="22807000" />
+      <workItem from="1678602679396" duration="1252000" />
+      <workItem from="1678621047949" duration="26241000" />
+      <workItem from="1678695326187" duration="20000" />
+      <workItem from="1678711481537" duration="16469000" />
+      <workItem from="1678769265578" duration="419000" />
+      <workItem from="1678773794687" duration="28233000" />
+      <workItem from="1678881009801" duration="679000" />
+      <workItem from="1678887778646" duration="850000" />
+      <workItem from="1678972828746" duration="12091000" />
+      <workItem from="1679032989665" duration="6276000" />
+      <workItem from="1679070533439" duration="2450000" />
+      <workItem from="1679079670102" duration="650000" />
+      <workItem from="1679080516537" duration="259000" />
+      <workItem from="1679120494874" duration="196000" />
+      <workItem from="1679147937743" duration="952000" />
+      <workItem from="1679157657024" duration="633000" />
+      <workItem from="1679162373268" duration="624000" />
+      <workItem from="1679166169979" duration="4328000" />
+      <workItem from="1679238514898" duration="5188000" />
+      <workItem from="1679291282578" duration="94000" />
+      <workItem from="1679308154919" duration="741000" />
+      <workItem from="1679572637021" duration="32000" />
+      <workItem from="1679665869867" duration="11633000" />
+      <workItem from="1679742920370" duration="10966000" />
+      <workItem from="1679830079167" duration="31000" />
+      <workItem from="1679847216643" duration="2149000" />
+      <workItem from="1679896515151" duration="9182000" />
+      <workItem from="1679931184939" duration="3430000" />
+      <workItem from="1680027422300" duration="3987000" />
+      <workItem from="1680094396852" duration="65000" />
+      <workItem from="1680115147090" duration="2082000" />
+      <workItem from="1680182212852" duration="1205000" />
+      <workItem from="1680188040415" duration="6655000" />
+      <workItem from="1680280756734" duration="5634000" />
+      <workItem from="1680370821951" duration="4318000" />
+      <workItem from="1680377316425" duration="2411000" />
+      <workItem from="1680442483750" duration="6981000" />
+      <workItem from="1680502297702" duration="69000" />
+      <workItem from="1680539173713" duration="2317000" />
+      <workItem from="1680604324200" duration="543000" />
+      <workItem from="1680622744147" duration="583000" />
+      <workItem from="1680633179877" duration="2635000" />
+      <workItem from="1680680534285" duration="38000" />
+      <workItem from="1680694073155" duration="860000" />
+      <workItem from="1680793827849" duration="14838000" />
+      <workItem from="1680844889491" duration="4673000" />
+      <workItem from="1680967879629" duration="2691000" />
+      <workItem from="1681043447169" duration="596000" />
+      <workItem from="1681109959460" duration="60000" />
+      <workItem from="1681233797435" duration="519000" />
+      <workItem from="1681487998997" duration="1787000" />
+      <workItem from="1681570826759" duration="10591000" />
+      <workItem from="1681715137211" duration="55000" />
+      <workItem from="1681749246287" duration="4308000" />
+      <workItem from="1681798098441" duration="177000" />
+      <workItem from="1681837117623" duration="4567000" />
+      <workItem from="1681886040464" duration="68000" />
+      <workItem from="1681893602577" duration="792000" />
+      <workItem from="1681992100875" duration="134000" />
+      <workItem from="1681992255755" duration="108000" />
+      <workItem from="1682255307321" duration="4242000" />
+      <workItem from="1682321393826" duration="123000" />
+      <workItem from="1682340418382" duration="813000" />
+      <workItem from="1682424884235" duration="24000" />
+      <workItem from="1682961424423" duration="5849000" />
+      <workItem from="1683017943818" duration="49000" />
+      <workItem from="1683049581030" duration="3886000" />
+      <workItem from="1683097785335" duration="27000" />
+      <workItem from="1683264202970" duration="2834000" />
+      <workItem from="1683557404678" duration="10712000" />
+      <workItem from="1683628183449" duration="15901000" />
+      <workItem from="1683701148791" duration="12000" />
+      <workItem from="1683749488928" duration="644000" />
+      <workItem from="1683784547942" duration="21000" />
+      <workItem from="1684053789538" duration="1285000" />
+      <workItem from="1685194724994" duration="132000" />
+      <workItem from="1685195889153" duration="23000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="index.php">
+        <watch expression="$query" language="PHP" />
+        <watch expression="$GLOBALS['IDE_EVAL_CACHE']['d70cec81-d06b-413e-b8ed-e2cd10413f1d']" />
+        <watch expression="$_COOKIE" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
