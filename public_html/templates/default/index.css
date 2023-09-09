@@ -27,7 +27,6 @@ label ion-icon{
 }
 
 body {
-    height: 100vh;
     background: #eee;
     display: flex;
     justify-content: center;

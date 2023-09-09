@@ -470,3 +470,7 @@ Fault: 08-05-2023 19:33:26 - Ошибка в SQL запросе: SELECT order.`i
 fileC:\OpenServer\domains\timesheet_workshop\public_html\engine\base\models\BaseModel.php
  In line 57
 
+Fault: 09-09-2023 13:26:27 - Ошибка в SQL запросе: SELECT dates.*,dates.`id` as dates_id,dates.`date` FROM dates  LEFT JOIN dates ON dates.date_id=dates.id - 1066 Not unique table/alias: 'dates'
+fileD:\my_work\Sites\digital_breakthrough_roud\public_html\engine\base\models\BaseModel.php
+ In line 57
+

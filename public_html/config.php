@@ -13,7 +13,7 @@ const PATH = '/';
 const HOST = 'localhost';
 const USER = 'root';
 const PASS = 'root';
-const DB_NAME = '';
+const DB_NAME = 'digital-breakthrough-roud';
 
 
 
