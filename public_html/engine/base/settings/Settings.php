@@ -41,6 +41,11 @@ class Settings
             'controllerPath' => '\engine\main\controllers\\',
             'action' => 'uploadVideo',
         ],
+        '/uploadData' => [
+            'controller' => 'mainPage',
+            'controllerPath' => '\engine\main\controllers\\',
+            'action' => 'saveData',
+        ],
 
 
     ];
