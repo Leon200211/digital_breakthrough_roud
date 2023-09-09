@@ -15,6 +15,9 @@ class mainPageController extends BaseController
     public $markers;
     public $dates;
 
+
+    public $chart_main = [];
+
     public function index() : void 
     {
         // получаем данные из БД
@@ -34,6 +37,46 @@ class mainPageController extends BaseController
         $this->dates = $this->model->read('dates', [
             'fileds' => ['id', 'date']
         ]);
+
+
+        foreach($this->dates as $data){
+            $chart_main_day_data[$data['date']] = [
+                'type_1' => 0,
+                'type_2' => 0,
+                'type_3' => 0,
+                'type_4' => 0,
+            ];
+        }
+
+        // chart main
+        foreach($this->dates as $data){
+            $chart_data = $this->model->read('defects', [
+                'fileds' => ['id', 'type'],
+                'where' => ['date_id' => $data['id']]
+            ]);
+            foreach($chart_data as $value) {
+                switch($value['type'])
+                {
+                    case 'type_1':
+                        $chart_main_day_data[$data['date']]['type_1'] += 1;
+                        break;
+                    case 'type_2':
+                        $chart_main_day_data[$data['date']]['type_2'] += 1;
+                        break;
+                    case 'type_3':
+                        $chart_main_day_data[$data['date']]['type_3'] += 1;
+                        break;
+                    case 'type_4':
+                        $chart_main_day_data[$data['date']]['type_4'] += 1;
+                        break;            
+                }
+            }
+        }
+
+
+        $this->chart_main = $chart_main_day_data;
+        
+
     }
 
     public function uploadVideo()
@@ -76,8 +119,7 @@ class mainPageController extends BaseController
 
         $data = !empty($_POST) ? $_POST : file_get_contents("php://input");
         $data = json_decode($data, true);
-        print_r($data);
-        
+
         if(!$this->model) $this->model = MainModel::getInstance();
         $date_id = $this->model->add('dates', [
             'fields' => [

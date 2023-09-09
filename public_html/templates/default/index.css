@@ -4,6 +4,9 @@
     padding: 0;
     font-family: Roboto;
 }
+html{
+    scroll-behavior: smooth;
+}
 #map {
     width: 500px;
     height: 500px;
@@ -25,6 +28,49 @@
 label ion-icon{
     font-size: 150px;
 }
+ol li{
+    position: relative;
+    list-style: none;
+}
+ol li:after{
+    content: '-';
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+ol li:nth-child(1):before{
+    content: '';
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    background-image: url('/templates/default/icon-type1.png');
+    background-size: contain;
+}
+ol li:nth-child(2):before{
+    content: '';
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    background-image: url('/templates/default/icon-type2.png');
+    background-size: contain;
+}
+ol li:nth-child(3):before{
+    content: '';
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    background-image: url('/templates/default/icon-type3.png');
+    background-size: contain;
+}
+ol li:nth-child(4):before{
+    content: '';
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    background-image: url('/templates/default/icon-type4.png');
+    background-size: contain;
+}
+
 
 body {
     background: #eee;
@@ -96,14 +142,14 @@ body {
     background: #fff;
 }
 header{
-    background: cornflowerblue;
+    background: #3d3a3a;
     box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
     width: 100%;
     padding: 15px;
 }
 .header-line{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .logo-bg{
@@ -118,6 +164,41 @@ header{
     border-radius: 100%;
     transition: .5s;
     cursor: pointer;
+}
+nav{
+    width: 40%;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+}
+nav ul li a, nav ul li label{
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    transition: .5s;
+}
+nav ul li a:before, nav ul li label:before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    background: white;
+    height: 0.1em;
+    transition: .5s;
+
+}
+nav ul li a:hover:before, nav ul li label:hover:before{
+    width: 100%;
+}
+.logo-bg{
+    margin-left: 50px;
 }
 .logo-bg span:first-child{
     position: relative;
@@ -141,4 +222,28 @@ header{
 .logo-bg:hover{
     box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
     transform: translateY(-5px);
+}
+.filters{
+    padding: 15px;
+    position: relative;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.filter{
+    width: 20%;
+}
+#map{
+    border: 10px solid transparent;
+    border-radius: 40px;
+    outline: 10px solid #8d8d8d;
+}
+.filter label{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
 }

@@ -11,9 +11,9 @@ const SITE_URL = 'digital-breakthrough-roud';
 const PATH = '/';
 
 const HOST = 'localhost';
-const USER = 'root';
-const PASS = 'root';
-const DB_NAME = 'digital-breakthrough-roud';
+const USER = 'u1988986_default';
+const PASS = 'EkwrOE9r8eS35d7b';
+const DB_NAME = 'u1988986_default';
 
 
 
