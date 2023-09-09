@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+#map {
+    width: 500px;
+    height: 500px;
+}
+.upload-file{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    gap: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+label ion-icon{
+    font-size: 150px;
+}
+
+body {
+    height: 100vh;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.btn {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #333;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+    transition: 1s;
+}
+
+.btn::before, .btn::after {
+    position: absolute;
+    background: #eee;
+    z-index: -1;
+    transition: 1s;
+    content: '';
+}
+
+.btn::before {
+    height: 201px;
+    width: 201px;
+}
+
+.btn::after {
+    height: 201px;
+    width: 201px;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn:hover::before {
+    width: 0px;
+    background: #fff;
+}
+
+.btn:hover::after {
+    height: 0px;
+    background: #fff;
+}
+
+.btn:hover {
+    background: #fff;
+}
+header{
+    background: cornflowerblue;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+    width: 100%;
+    padding: 15px;
+}
+.header-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-bg{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    border: 5px solid red;
+    padding: 20px;
+    border-radius: 100%;
+    transition: .5s;
+    cursor: pointer;
+}
+.logo-bg span:first-child{
+    position: relative;
+}
+.logo-bg span{
+    text-transform: uppercase;
+}
+.logo-bg span:first-child:before{
+    content: '';
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #000;
+    border-radius: 10px;
+    height: 0.5em;
+}
+.logo-bg span:last-of-type{
+    padding-top: 5px;
+}
+.logo-bg:hover{
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}

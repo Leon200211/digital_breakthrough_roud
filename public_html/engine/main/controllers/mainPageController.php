@@ -43,7 +43,7 @@ class mainPageController extends BaseController
 
     public function outputData()
     {
-        return $this->render($_SERVER['DOCUMENT_ROOT'] . '/engine/main/views/mainPage');
+        return $this->render($_SERVER['DOCUMENT_ROOT'] . '/templates/default/index');
     }
 
 
