@@ -120,6 +120,20 @@ class mainPageController extends BaseController
         $data = !empty($_POST) ? $_POST : file_get_contents("php://input");
         $data = json_decode($data, true);
 
+        $buffer = [];
+
+        foreach($data['markers'] as $key => $value) {
+            if (in_array($value['marker_coords_x'], $buffer)) {
+                unset($data['markers'][$key]);
+            } else {
+                $buffer[] = $value['marker_coords_x'];
+            }
+
+        }
+
+
+
+
         if(!$this->model) $this->model = MainModel::getInstance();
         $date_id = $this->model->add('dates', [
             'fields' => [

@@ -482,3 +482,7 @@ Fault: 09-09-2023 15:59:32 - Ошибка в SQL запросе: INSERT INTO def
 fileD:\my_work\Sites\digital_breakthrough_roud\public_html\engine\base\models\BaseModel.php
  In line 57
 
+Fault: 10-09-2023 8:15:15 - Ошибка подключение к БД: 1045 Access denied for user 'u1988986_default'@'localhost' (using password: YES)
+fileD:\my_work\Sites\digital_breakthrough_roud\public_html\engine\base\models\BaseModel.php
+ In line 29
+
