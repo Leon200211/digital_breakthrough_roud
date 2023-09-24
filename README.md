@@ -6,7 +6,7 @@
 
 
 *Состав команды "нейрON"*   
-*Чиженко Леон (https://github.com/Leon200211) - Fullstack-разработчик*    
+*Чиженко Леон (https://github.com/Leon200211) - Backend-разработчик*    
 *Сергей Куликов (https://github.com/MrMarvel) - Backend-разработчик*  
 *Карпов Даниил (https://github.com/Free4ky) - ML-engineer*  
 *Валуева Анастасия (https://github.com/VoLuIcHiK) - ML-engineer/Designer*   
