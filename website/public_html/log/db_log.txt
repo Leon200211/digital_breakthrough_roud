@@ -474,15 +474,7 @@ Fault: 09-09-2023 13:26:27 - Ошибка в SQL запросе: SELECT dates.*,
 fileD:\my_work\Sites\digital_breakthrough_roud\public_html\engine\base\models\BaseModel.php
  In line 57
 
-Fault: 09-09-2023 15:58:54 - Ошибка в SQL запросе: INSERT INTO defects (`type`,`marker_coords_x`,`marker_coords_y`,`note`,`date_id`) VALUE ('type_1','','',NULL,'5') - 1048 Column 'note' cannot be null
-fileD:\my_work\Sites\digital_breakthrough_roud\public_html\engine\base\models\BaseModel.php
- In line 57
-
-Fault: 09-09-2023 15:59:32 - Ошибка в SQL запросе: INSERT INTO defects (`type`,`marker_coords_x`,`marker_coords_y`,`note`,`date_id`) VALUE ('lateral_cracking','','',NULL,'6') - 1048 Column 'note' cannot be null
-fileD:\my_work\Sites\digital_breakthrough_roud\public_html\engine\base\models\BaseModel.php
- In line 57
-
-Fault: 10-09-2023 8:15:15 - Ошибка подключение к БД: 1045 Access denied for user 'u1988986_default'@'localhost' (using password: YES)
-fileD:\my_work\Sites\digital_breakthrough_roud\public_html\engine\base\models\BaseModel.php
+Fault: 09-09-2023 14:26:12 - Ошибка подключение к БД: 1049 Unknown database 'digital-breakthrough-roud'
+fileC:\OSPanel\domains\work\Leon\hackatone-map\digital_breakthrough_roud\public_html\engine\base\models\BaseModel.php
  In line 29
 

@@ -1,0 +1,8 @@
+open3d
+ros2-numpy
+gradio
+requests
+numpy
+matplotlib
+pandas
+scipy
